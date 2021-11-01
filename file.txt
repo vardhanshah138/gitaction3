@@ -1,11 +1,4 @@
-C1
-C2
+Functions :-
+() invokes the function to execute.
+while only function returns defination of the function.
 
-
-C5
-C6
-
-c'
-some changes on 9th line
-
-some changes on 11th line
