@@ -1,3 +1,8 @@
+Objects :-
+two ways to access the object attributes.
+object to declare first then it should access.
+this to access current object values.
+
 Functions :-
 () invokes the function to execute.
 while only function returns defination of the function.

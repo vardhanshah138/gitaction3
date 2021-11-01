@@ -1,8 +1,19 @@
 //alert("Hello World! , succesfully Loaded JS file.");
-document.getElementById("demo").innerHTML = f(1,7);
-document.getElementById("demo").innerHTML = f(1,9);
 
-console.log(f);
+const car = {
+    type:"Suvs",
+    model:"500",
+    color:"White",
+    samplefun : function() {
+        return this.model;
+    }
+};
+console.log(car.type);      //two ways of accessing datatype.
+//console.log(car["model"]);
+console.log(car.samplefun());
+
+
+//console.log(f);
 
 
 
