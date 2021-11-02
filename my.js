@@ -8,15 +8,18 @@ const car = {
         return this.model;
     }
 };
-console.log(car.type);      //two ways of accessing datatype.
+
+const mycar = car;
+mycar.type = "Luxurious.";
+const myanothercar = car;
+mycar.color = "blue";
+//console.log(car.type);      //two ways of accessing datatype.
 //console.log(car["model"]);
-console.log(car.samplefun());
-
-
+//console.log(car.samplefun());
 //console.log(f);
 
-
-
+console.log(myanothercar == mycar);
+console.log(myanothercar === mycar);
 
 
 function f(a,b){

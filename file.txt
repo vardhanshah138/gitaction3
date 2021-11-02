@@ -1,3 +1,6 @@
+event:-
+The onclick,hover,mouseover
+
 Objects :-
 two ways to access the object attributes.
 object to declare first then it should access.
